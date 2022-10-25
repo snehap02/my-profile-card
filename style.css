@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;600;800&family=Montserrat:wght@500&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .one{
+        box-shadow:  28px 28px 40px #babbc2,
+            -28px -28px 40px #ffffff;
+    }
+    .shadow{
+        text-shadow: -8px -8px 12px rgba(225,225,225,0.4),
+        8px 8px 12px rgba(0,0,0,0.08);
+    }
+    .two{
+        box-shadow:  10px 10px 20px #c5c5c5,
+            -10px -10px 20px #fbfbfb;
+    }
+    .two-inner{
+        box-shadow: inset 13px 13px 26px #c5c5c5,
+            inset -13px -13px 26px #fbfbfb;
+    }
+}
